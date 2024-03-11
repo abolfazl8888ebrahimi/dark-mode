@@ -1,0 +1,40 @@
+
+body {
+    line-height:1.5;
+      padding: 25px;
+      background-color: white;
+      color: black;
+      font-size: 25px;
+    }
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        display:flex ;
+        justify-content: center;
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+     
+    .dark-mode {
+        background: #272727;
+        filter: invert(3) hue-rotate(210deg);
+    }
+    button{
+        position: relative;
+        left: 635px;
+        padding: 10px 35px;
+        background-color: #333;
+        color: #ddd;
+    }
